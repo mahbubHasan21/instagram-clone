@@ -1,0 +1,20 @@
+@media screen and (max-width: 991px) {
+  .logo img {
+    display: none;
+  }
+  #m-logo {
+    display: block;
+  }
+  .left-side-bar {
+    width: unset;
+  }
+  .navigation ul li:last-child {
+    width: unset;
+  }
+  .navigation ul li a span {
+    display: none;
+  }
+  .navigation ul li a span {
+    margin-left: unset;
+  }
+}
