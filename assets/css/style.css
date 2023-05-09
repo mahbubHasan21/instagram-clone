@@ -10,6 +10,7 @@
   position: fixed;
   height: 100%;
   width: 300px;
+  background-color: #fff;
 }
 .logo img {
   width: 120px;
@@ -66,11 +67,125 @@
   border-radius: 50%;
   margin: 10px;
 }
+.m-nav {
+  display: none;
+}
 
+/* STORY */
+.stories {
+  display: flex;
+}
+.story {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.story img {
+  width: 100%;
+  border-radius: 50%;
+}
 .news-feed {
   padding-top: 40px;
 }
 
+/* POST */
+.post-author {
+  position: relative;
+}
+.post-head {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 40px;
+}
+.auth-content {
+  display: flex;
+}
+.auth-img img {
+  width: 36px;
+  border-radius: 50%;
+}
+.auth-img img:hover {
+  cursor: pointer;
+}
+.auth-name {
+  margin-left: 10px;
+  font-weight: 600;
+}
+.auth-name:hover,
+.post-more:hover {
+  cursor: pointer;
+  color: gray;
+}
+.post-time {
+  margin-left: 5px;
+}
+.post-more {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 0;
+}
+
+/* post body  */
+.post-img {
+  margin: 15px 0px;
+}
+.post-img img {
+  width: 100%;
+  border-radius: 3px;
+}
+.post-actions {
+  position: relative;
+}
+.post-actions svg {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.post-actions svg:hover {
+  cursor: pointer;
+  color: gray;
+}
+.post-actions .is-liked {
+  color: red;
+  display: none;
+}
+.r-bookmark svg {
+  margin-right: 0px;
+}
+.post-actions .r-bookmark {
+  position: absolute;
+  right: 0;
+}
+.react-count {
+  margin: 10px 0px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.react-count:hover {
+  cursor: pointer;
+}
+.post-content {
+  font-size: 14px;
+}
+.post-c-auth-name {
+  font-weight: 600;
+}
+.post-comments {
+  color: gray;
+}
+.post-c-auth-name:hover,
+.post-comments:hover {
+  cursor: pointer;
+}
+.comment-form input[type="text"] {
+  border: 0;
+  width: 100%;
+}
+.comment-form input[type="text"]:focus {
+  outline: none;
+}
 .right-sidebar {
   padding-top: 40px;
 }
